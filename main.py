@@ -9,8 +9,8 @@ intents.guilds = True
 
 bot = commands.Bot(command_prefix="welc.", intents=intents)
 
-WELCOME_CHANNEL_ID = 123456789012345678  # 送信先チャンネルのIDに置き換えてください
-WELCOME_IMAGE_URL = "https://example.com/welcome.png"  # 画像URLに置き換えてください
+WELCOME_CHANNEL_ID = 1375077085529243678  # 送信先チャンネルのIDに置き換えてください
+WELCOME_IMAGE_URL = "https://cdn.glitch.global/d1022a5c-ecf8-42dd-96b3-1b0094a64966/standard.gif?v=1748236168821"  # 画像URLに置き換えてください
 
 @bot.event
 async def on_member_join(member: discord.Member):
