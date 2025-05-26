@@ -27,7 +27,7 @@ async def on_member_join(member: discord.Member):
 
 @bot.event
 async def on_ready():
-    activity = discord.Activity(type=discord.ActivityType.watching, name="User")
+    activity = discord.Activity(type=discord.ActivityType.watching, name="𝑭𝒓𝒆𝒂𝒌'𝒔 𝑺𝒆𝒓𝒗𝒆𝒓")
     await bot.change_presence(activity=activity)
     print(f'Logged in as {bot.user}')
 
